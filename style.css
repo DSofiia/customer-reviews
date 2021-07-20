@@ -8,9 +8,7 @@ html, body {
 .customer-reviews .container {
     width: 1050px;
     margin: 0 auto;
-    /* background:#FFFFFF; */
     position: relative;
-    /* background: aqua; */
 }
 
 .customer-reviews_list-icon{
@@ -18,11 +16,9 @@ html, body {
     height: 4px;
 }
 
-
 button:hover {
     background:#FAFAFA; ;
 }
-
 
 .customer-reviews_slide{
     width: 926px;
