@@ -8,8 +8,9 @@ html, body {
 .customer-reviews .container {
     width: 1050px;
     margin: 0 auto;
-    background:#FFFFFF;
+    /* background:#FFFFFF; */
     position: relative;
+    /* background: aqua; */
 }
 
 .customer-reviews_list-icon{
@@ -17,58 +18,17 @@ html, body {
     height: 4px;
 }
 
-.slider-prev, .slider-next {
-    border-radius: 50%;
-    border: 1px;
-    fill: #D9D9D9;
-    position: absolute;
-    top: 35%;
-    width: 60px;
-    height: 60px;
-}
-
-.slider-prev{
-    left: 0;   
-}
-
-.slider-next{
-    right: 0;
-}
-
-.slider-prev :hover {
-    fill: #D31342;
-}
-
-.slider-next :hover {
-    fill: #D31342;
-}
 
 button:hover {
-    background: #D31342;
+    background:#FAFAFA; ;
 }
 
-
-.customer-reviews_slider {
-    /* border: 2px solid black; */
-    width: 926px;
-    height: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    margin-bottom: 35px;
-}
-
-.customer-reviews_slider-line{
-    width: 2778px;
-    display: flex;
-    background: transparent;
-    position: relative;
-    left: 0;
-    transition: all ease 1s;
-}
 
 .customer-reviews_slide{
     width: 926px;
     text-align: center;
+    margin: 0 auto;
+    
 }
 
 .customer-reviews_img{
@@ -97,6 +57,7 @@ button:hover {
     padding-right: 54px;
     padding-bottom: 32px;
     position: relative;
+    margin-top: 15px;
     margin-bottom: 15px;
     color: #000000;
 }

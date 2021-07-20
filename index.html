@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/splide.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -15,77 +16,82 @@
     <section class="customer-reviews">
     <div class="container">
 
-        <div class="customer-reviews_slider">
-            <div class="customer-reviews_slider-line">
-                <div class="customer-reviews_slide"> <img class="customer-reviews_img" src="./images/customer1.png" alt="customer1">
-                    <div class="customer-reviews_text"> 
-                        <div class="customer-reviews_gradient">
-                        <p class="txts">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. 
-                        Aliquam sem. In hendrerit nulla quam nunc, accumsan congue.
-                         Lorem ipsum primis in nibh vel risus.
-                        </p>
+        <div class="splide">
+            <div class="splide__track">
+        
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <div class="customer-reviews_slide"> 
+                            <img class="customer-reviews_img" src="./images/customer1.png" alt="customer1">
+                            <div class="customer-reviews_text"> 
+                                <div class="customer-reviews_gradient">
+                                <p class="txts">Nullam viverra consectetuer. Quisque cursus et, porttitor risus. 
+                                Aliquam sem. In hendrerit nulla quam nunc, accumsan congue.
+                                 Lorem ipsum primis in nibh vel risus.
+                                </p>
+                                </div>
+                            </div>
+                            <ul class="customer-reviews_list-pink">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            <p class="customer-reviews_name">Emily, Los Angeles</p>
+                        </div>  
+                    </li>
+        
+                    <li class="splide__slide">
+                        <div class="customer-reviews_slide"> 
+                            <img class="customer-reviews_img" src="./images/customer2.png" alt="customer2">
+                            <div class="customer-reviews_text">
+                                <div class="customer-reviews_gradient">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                     ut labore et dolore magna aliqua. 
+                                </p>
+                                </div>
+                            </div> 
+                            <ul class="customer-reviews_list-pink">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            <p class="customer-reviews_name">Emily, Los Angeles</p>
                         </div>
-                    </div>
-                    <ul class="customer-reviews_list-pink">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <p class="customer-reviews_name">Emily, Los Angeles</p>
-                </div>
-
-                <div class="customer-reviews_slide"> <img class="customer-reviews_img" src="./images/customer2.png" alt="customer2">
-                    <div class="customer-reviews_text">
-                        <div class="customer-reviews_gradient">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                             ut labore et dolore magna aliqua. 
-                        </p>
+                    </li>
+        
+                    <li class="splide__slide">
+                        <div class="customer-reviews_slide"> <img class="customer-reviews_img" src="./images/customer3.png" alt="customer3">
+                            <div class="customer-reviews_text">
+                                <div class="customer-reviews_gradient">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                         ut labore et dolore magna aliqua. 
+                                    </p>
+                                </div>
+                            </div> 
+                            <ul class="customer-reviews_list-pink">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                            <p class="customer-reviews_name">Emily, Los Angeles</p>
                         </div>
-                    </div> 
-                    <ul class="customer-reviews_list-pink">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <p class="customer-reviews_name">Emily, Los Angeles</p>
-                </div>
-
-                <div class="customer-reviews_slide"> <img class="customer-reviews_img" src="./images/customer3.png" alt="customer3">
-                    <div class="customer-reviews_text">
-                        <div class="customer-reviews_gradient">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-                                 ut labore et dolore magna aliqua. 
-                            </p>
-                        </div>
-                    </div> 
-                    <ul class="customer-reviews_list-pink">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                    <p class="customer-reviews_name">Emily, Los Angeles</p>
-                </div>
-                 
+                    </li>
+        
+                </ul>
             </div>
         </div>
-
-        <ul class="customer-reviews_list">
-            <li class="customer-reviews_item"><button class="customer-reviews_btn"></button></li>
-            <li class="customer-reviews_item"><button class="customer-reviews_btn"></button></li>
-            <li class="customer-reviews_item"><button class="customer-reviews_btn"></button></li>
-        </ul>
-
-        <svg class="slider-prev">
-            <use href="./images/sprite.svg#icon-arrow_left"></use>
-        </svg>
-
-        <svg class="slider-next">
-            <use href="./images/sprite.svg#icon-arrow_right"></use>
-        </svg>
-
     </div>
+
 </section>
-<script src="script.js"></script>
+
+
+<script>
+	document.addEventListener( 'DOMContentLoaded', function () {
+		new Splide( '.splide' ).mount();
+	} );
+</script>
+
+<script src="./dist/js/splide.min.js"></script>
 
 </body>
 
