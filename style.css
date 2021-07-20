@@ -1,5 +1,4 @@
 
-
 html, body {
     font-size: 16px;
     font-family: DM Sans;
@@ -222,4 +221,18 @@ button:hover {
     .customer-reviews_name{
         font-size: 20px;
    }
+}
+
+@media screen and (max-width: 1199px) {
+    .splide__arrow{
+        display: none;
+   }
+}
+
+.splide__pagination__page.is-active{width: 12.4px;
+    height: 12px;
+    background: url(./images/home.svg) no-repeat;
+    border: 0;
+    border-radius: 0;
+    opacity: 1;
 }
