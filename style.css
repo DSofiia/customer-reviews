@@ -1,0 +1,153 @@
+
+
+html, body {
+    font-size: 16px;
+    font-family: DM Sans;
+}
+
+.customer-reviews .container {
+    width: 1050px;
+    margin: 0 auto;
+    background:#FFFFFF;
+    position: relative;
+}
+
+.customer-reviews_list-icon{
+    width: 4px;
+    height: 4px;
+}
+
+.slider-prev, .slider-next {
+    fill: #D9D9D9;
+    position: absolute;
+    top: 35%;
+    width: 60px;
+    height: 60px;
+}
+
+.slider-prev{
+    left: 0;   
+}
+
+.slider-next{
+    right: 0;
+}
+
+.slider-prev :hover {
+    fill: #D31342;
+}
+
+.slider-next :hover {
+    fill: #D31342;
+}
+
+button:hover {
+    background: #D31342;
+}
+
+
+.customer-reviews_slider {
+    /* border: 2px solid black; */
+    width: 926px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.customer-reviews_slider-line{
+    width: 2778px;
+    display: flex;
+    background: transparent;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+
+.customer-reviews_slide{
+    width: 926px;
+    text-align: center;
+}
+
+.customer-reviews_img{
+    width: 85px;
+    height: 85px;
+}
+
+.customer-reviews_text ::before {
+    position: absolute;
+    top: 32px;
+    left: 50px;
+    content: url(./images/lap.png);
+    color: #E1E1E1;
+    width: 54px;
+    height: 40px;
+}
+
+.customer-reviews_text{
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.04em;
+    font-weight: 500;
+    background-color: #FAFAFA;
+    padding-top: 32px;
+    padding-left: 59px;
+    padding-right: 54px;
+    padding-bottom: 32px;
+    position: relative;
+    margin-bottom: 15px;
+    color: #000000;
+}
+
+
+.customer-reviews_gradient{ 
+    padding-left: 28px;
+    padding-right: 35px;
+    height: 100%;
+    background-image: repeating-linear-gradient( #FAFAFA 0, #FAFAFA 27px, #E1E1E1 27px, #E1E1E1 28px);
+}
+
+
+.customer-reviews_list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;  
+}
+
+.customer-reviews_item:not(:last-child){
+    margin-right: 18px;
+}
+
+.customer-reviews_item-pink::after{
+    content: " ";
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    color: #D31342;
+    display: block;
+}
+
+.customer-reviews_item-pink:not(:last-child){
+    margin-right: 10px;
+}
+
+.customer-reviews_btn{
+    width: 12px; 
+    height: 12px;
+    border-radius: 50%;
+    font-size:0;
+    color: #D9D9D9;
+    border: 0px;
+}
+
+.customer-reviews_name{
+    margin-top: 15px;
+    margin-bottom: 35px;
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.8;
+    color: #000000;
+}
