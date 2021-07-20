@@ -231,7 +231,7 @@ button:hover {
 
 .splide__pagination__page.is-active{width: 12.4px;
     height: 12px;
-    background: url(./images/home.svg) no-repeat;
+    background: url(./images/home.svg) 50% 50% no-repeat;
     border: 0;
     border-radius: 0;
     opacity: 1;
